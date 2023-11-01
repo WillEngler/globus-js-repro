@@ -1,7 +1,10 @@
 import logo from './logo.svg';
 import './App.css';
+import { authorization } from "@globus/sdk"
 
 function App() {
+  console.log(authorization);
+
   return (
     <div className="App">
       <header className="App-header">
